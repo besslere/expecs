@@ -1,0 +1,58 @@
+.tc {
+  text-align: center;
+}
+.tl {
+  text-align: left;
+}
+.tt {
+  text-align: right;
+}
+.bs {
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+.filter {
+  filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr='#66809dae', EndColorStr='#66809dae');
+}
+.twoLine {
+  width: 150px;
+  height: 3px;
+  position: absolute;
+  left: 0;
+  z-index: 100;
+}
+.twoLine span,
+.twoLine b {
+  width: 75px;
+  height: 3px;
+  display: inline-block;
+}
+.twoLine span {
+  background: #FF460E;
+  float: left;
+}
+.twoLine b {
+  background: #337ab7;
+  float: right;
+}
+.downLine {
+  height: 2px;
+  position: absolute;
+  left: 0;
+  z-index: 100;
+}
+.downLine span,
+.downLine b {
+  height: 2px;
+  display: inline-block;
+}
+.downLine span {
+  background: #FF460E;
+  float: left;
+}
+.downLine b {
+  background: #337ab7;
+  float: right;
+}

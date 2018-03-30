@@ -1,0 +1,222 @@
+/*
+ * 快邮科技--CSS
+ * @Author:ZouYuan
+ * @Date:2017-08-01
+ */
+
+@import "bootstrap.less";
+
+//自定义的样式
+body{
+  font: 12px/1.5 "Microsoft YaHei", tahoma, arial, Hiragino Sans GB;
+  overflow: hidden;
+  position: relative;
+  height: 100%;
+  width: 100%;
+  background: #f9f9f9;
+}
+body,ul,ol,li,dl,dt,dd,h1,h2,h3,h4,h5,h6{
+  margin: 0;
+  padding: 0;
+}
+li{
+  list-style: none;
+}
+a:focus,
+a:hover,
+a:active {
+  outline: 0;
+  text-decoration: none;
+}
+//expecs
+.main{
+  background: url("../img/bg.jpg") no-repeat top center/cover;
+  width: 100%;
+  min-height: 910px;
+  .header{
+    padding-top: 20px;
+    overflow: hidden;
+    .pull-left{
+      img{
+        width: 210px;
+        height: 52px;
+      }
+    }
+    .pull-right{
+      padding-top: 12px;
+      input{
+        margin-right: 10px;
+        border: none;
+        padding: 5px 10px;
+        background-color: rgba(225,225,225,0.1);
+        color: #666;
+      }
+      a,span{
+        color: #fff;
+        display: inline-block;
+        line-height: 25px;
+      }
+      span.gs{
+        padding-right: 10px;
+      }
+    }
+  }
+  .ctn{
+    margin: 160px 0 160px;
+    h1{
+      font-size: 50px;
+      text-align: center;
+      color: #fff;
+      margin-bottom: 120px;
+    }
+    .col-md-2{
+      text-align: center;
+      span{
+        position: relative;
+        display: inline-block;
+        background-color: #00a3ee;
+        opacity: .9;
+        border-radius: 8px;
+        width: 146px;
+        height: 50px;
+        i{
+          position: absolute;
+          top: 9px;
+          left: 14px;
+          background: url("../img/s.png") no-repeat;
+          width: 32px;
+          height: 32px;
+        }
+        .icon2{
+          background: url("../img/t.png") no-repeat;
+        }
+        .icon3{
+          background: url("../img/r.png") no-repeat;
+        }
+        .icon4{
+          background: url("../img/b.png") no-repeat;
+        }
+        .icon5{
+          background: url("../img/b.png") no-repeat;
+        }
+        .icon5{
+          background: url("../img/c.png") no-repeat;
+        }
+        .icon6{
+          background: url("../img/j.png") no-repeat;
+        }
+        a{
+          display: inline-block;
+          padding: 13px 0 0 40px;
+          color: #fff;
+          font-size: 16px;
+          letter-spacing: 2px;
+        }
+      }
+    }
+  }
+  .footer{
+    width: 100%;
+    text-align: center;
+    background: #fff;
+    ul{
+      overflow: hidden;
+      li{
+        display: inline-block;
+        margin: 2px;
+        height: 40px;
+        line-height: 40px;
+        a{
+          color: #000;
+        }
+      }
+    }
+  }
+}
+
+/*SERVICE*/
+.qqserver .qqserver-header:after,.qqserver .qqserver-header:before,.qqserver li a:after,.qqserver li a:before{display:table;content:' '}
+.qqserver .qqserver-header:after,.qqserver li a:after{clear:both}
+.qqserver .qqserver-header,.qqserver li a,.tabs,.user-main,.view-category,.view-category-list>li{*zoom:1}
+.qqserver{position:fixed;top:50%;right:0;height:209px;margin-top:-104px}
+.qqserver.unfold .qqserver-body{right:0}
+.qqserver .qqserver-body{position:absolute;right:-144px;width:144px;height:175px;padding:12px 10px;-webkit-transition:.3s cubic-bezier(.19,1,.22,1);-o-transition:.3s cubic-bezier(.19,1,.22,1);transition:.3s cubic-bezier(.19,1,.22,1);border:1px solid #62b651;border-radius:4px;background:#f4f7fa}
+.qqserver .qqserver_fold{position:absolute;right:0;padding:14px 7px;cursor:pointer;border-top-left-radius:4px;border-bottom-left-radius:4px;background:#70ca5d}
+.qqserver .qqserver-header{padding-bottom:10px;padding-left:6px;border-bottom:1px dashed #d1d4cc}
+.qqserver .qqserver-header *{float:left}
+.qqserver .qqserver_arrow{margin-top:-1px;margin-left:7px;cursor:pointer}
+.qqserver li{margin-top:6px}
+.qqserver li a{display:block;padding:6px 12px 4px}
+.qqserver li a div{font-size:14px;float:left;margin-right:11px;color:#697466}
+.qqserver li a span{font-size:12px;line-height:18px;float:left;text-indent:3px;color:#fff}
+.qqserver li a span.qqserver-service-alert{font-weight:400;display:block}
+.qqserver li a:hover{text-decoration:none;border-radius:4px;background:#eaebe9}
+.qqserver li a:hover div{color:#62b651}
+.qqserver .qqserver-footer{margin-top:10px;padding-top:14px;padding-bottom:14px;padding-left:11px;border-top:1px dashed #d1d4cc}
+.qqserver .qqserver-footer .text-primary{color:#70CA5D;font-size:14px;}
+.qqserver .qqserver_icon-alert{display:inline-block;margin-right:10px;vertical-align:-3px;*display:inline;*zoom:1;*vertical-align:-1px}
+.qqserver-header div{width:90px;height:18px;background-image:url("../img/kefu.png");background-position:-419px -80px}
+.qqserver_icon-alert{width:16px;height:14px;background-image:url("../img/kefu.png");background-position:-595px -85px}
+.qqserver li a span{width:30px;height:23px;background-image:url("../img/kefu.png");background-position:-265px 0}
+.qqserver li a .qqserver-service-alert{width:30px;height:22px;background-image:url("../img/kefu.png");background-position:-342px 0}
+.qqserver_fold div{width:26px;height:132px;background-image:url("../img/kefu.png");background-position:0 0}
+.qqserver_fold:hover div{width:26px;height:132px;background-image:url("../img/kefu.png");background-position:-27px 0}
+.qqserver_arrow{width:18px;height:18px;background-image:url("../img/kefu.png");background-position:-435px 0}
+.qqserver_arrow:hover{width:18px;height:18px;background-image:url("../img/kefu.png");background-position:-435px -38px}
+
+
+//Phone
+@media screen and (max-width: 767px){
+  .main{
+    min-height: 625px;
+    .header{
+      .pull-left{
+        img{
+          width: 160px;
+          height: 40px;
+        }
+      }
+      .pull-right{
+        padding-top: 6px;
+      }
+    }
+    .ctn{
+      margin-top: 80px;
+      h1{
+        font-size: 22px;
+        margin-bottom: 60px;
+      }
+      p{
+        font-size: 12px;
+      }
+      .col-xs-6{
+        margin-bottom: 20px;
+        span{
+          a{
+            font-size: 16px;
+          }
+        }
+      }
+      .col-md-2{
+        span{
+          i{
+            top: 11px;
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 991px){
+  .main{
+    .ctn{
+      .col-md-2{
+        span{
+          margin-bottom: 20px;
+        }
+      }
+    }
+  }
+}
+
+
